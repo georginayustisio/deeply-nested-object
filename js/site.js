@@ -1,0 +1,90 @@
+const myObject = {
+    name: "Georgina Yustisio",
+    location: "New York",
+    temperature: "cold",
+    season: "winter",
+    cityscape: "magical",
+    traditions: ["cinnamon rolls","hot chocolate","family gathering"],
+    aroma: "cinnamon",
+    ingredients: {
+        flour: "4 cups",
+        sugar: "½ cup",
+        salt: "¾ tsp",
+        butter: "⅓ cup",
+        milk: "1 cup",
+        yeast: "2 ¼ tsp",
+        eggs: {
+            wholeEggs: 2,
+            eggYolk: 1,
+        },
+},
+recipes: {
+    cinnamonRolls: {
+        description: "Warm, gooey delicacies",
+        author: "Joshua Weissman",
+        steps:[
+            "In a stand mixer bowl, combine all-purpose flour, granulated sugar, and fine sea salt.",
+            "Add softened unsalted butter.",
+            "Combine lukewarm whole milk and instant yeast in a separate bowl.",
+            "Using the dough hook attachment, add the yeast mixture, whole eggs, and egg yolk.",
+            "Knead the dough for 30-60 seconds on a floured surface and let it rise for 90 minutes.",
+            "Mix brown sugar and cinnamon in a bowl.",
+            "Roll out the dough, spread with butter, and sprinkle the cinnamon mixture.",
+            "Roll the dough tightly, slice it into 2” thick slices, and let it rise for 30-45 minutes.",
+            "Bake in a preheated 375°F oven for 15-20 minutes. Allow to cool before serving.",
+        ],
+        rollsFilling: {
+            ingredients: {
+                brownSugar: "1 cup",
+                cinnamon: "2 ½ tbsp",
+                unsaltedButter: "⅓ cup",
+            },
+        },
+        creamCheeseGlaze: {
+            ingredients: {
+                creamCheese: "4 oz",
+                powderedSugar: "¾ cups",
+                wholeMilk: "3 tbsp",
+            },
+            instructions: [
+                "Beat together cream cheese until smooth.",
+                "Blend in powdered sugar until smooth.",
+                "Whisk in whole milk until smooth.",
+            ],
+        },
+    },
+},
+greet: function () {
+    return "Hello from New York!";
+},
+isWinter: function() {
+    return this.season === "winter";
+},
+favoriteActivity: "Baking",
+  isMagicalTime: true,
+  currentYear: new Date().getFullYear(),
+  favoriteRecipe: "Cinnamon Rolls",
+  isDelicious: true,
+  isHolidaySeason: true,
+  enjoyWarmth: true,
+  winterDescription: "As the days grow shorter and the temperature drops, the arrival of winter in New York signals a noticeable change in the air we breathe and the general feel of the city. The once brisk autumn breeze now carries a biting chill, and the cityscape undergoes a magical metamorphosis. It’s a time when cozy scarves and warm mittens become essential, and the aroma of roasted chestnuts mingles with the fragrance of freshly baked treats. Cinnamon rolls have become a cherished tradition of mine, a delightful way to share my warmth and spread holiday cheer during this festive season. To me, there’s something truly enchanting about the entire process — the soft dough, generously sprinkled with a mixture of cinnamon, sugar, and butter, rolled into spirals of sweet anticipation. As they bake in the oven, the kitchen is enveloped in the irresistible aroma of cinnamon, a scent that brings back memories of cozy gatherings and joyful moments. It’s not just the ingredients themselves that make them perfect for the holidays. It’s about coming together with loved ones, rolling out the dough, sprinkling the cinnamon-sugar mixture, all while exchanging stories and laughter. Then, as we settle down to enjoy these warm, gooey delicacies while sipping off a cup of hot chocolate, it’s as if we’re sharing a piece of our hearts, spreading the love and warmth that define the holiday season. Cinnamon rolls have become a symbol of the warmth, togetherness, and delicious indulgence that makes this time of year truly special.",
+  ambianceOfHouse: {
+    warm: true,
+    comfy: true,
+    cozy: true,
+    fullOfLaughter: true,
+    smellsGood: true,
+  },
+  ambiance1: "Soft, glowing lights illuminate every corner of the house.",
+  ambiance2: "The fireplace crackles, casting a warm and inviting glow.",
+  ambiance3: "Plush blankets and cushions are scattered around, inviting you to snuggle up.",
+  ambiance4: "Laughter and chatter fill the air, creating a joyful atmosphere.",
+  ambiance5: "The scent of freshly baked cinnamon rolls wafts through the rooms.",
+  ambiance6: "Mugs of hot chocolate are in everyone's hands, warming them from the inside.",
+  ambiance7: "Festive decorations add a touch of holiday magic to every space.",
+  ambiance8: "Board games and stories shared with loved ones create cherished memories.",
+  ambiance9: "The cozy nook by the window is a favorite spot for contemplation.",
+  ambiance10: "Flickering candles create a peaceful ambiance in the evening.",
+  ambiance11: "The sound of laughter from children running around the house.",
+  ambiance12: "The sound of christmas music in the background, transporting you to a christmas town",
+};
